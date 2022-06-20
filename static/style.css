@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Joan&family=Merriweather:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#navbar {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Joan', serif;
+    background-color: black;
+    padding: 13px 15px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 4px 48px;
+    color: white;
+    font-size: 1.5rem;
+}
+#navbar li a:hover {
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+}
+
+#introSection {
+    font-family: 'Merriweather', serif;
+    font-size:4rem;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url('/static/bg2.jpeg');
+    height: 800px;
+    background-color: greenyellow
+}
+#introSection div.small {
+    font-size: 1.8rem;
+    padding: 8px;
+}
+#sponsorsSection {
+    height: 300px;
+    background-color: lightgreen;
+
+}
+#sponsorsSection h2 {
+ text-align: center;
+ font-size:2.5rem;
+ padding-top: 30px;
+}
+#footer {
+    background-color: black;
+}
